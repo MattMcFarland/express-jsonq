@@ -38,6 +38,7 @@ router.get('/users', function (req, res) {
         next();
     }
 });
+```
 
 But what if you want to that in a lot of different places?  Instead of duplicating code you can use a middleware.
 
@@ -71,3 +72,4 @@ app.listen(3000);
 router.get('/users', jsonq(), function (req, res, next) {
    // do stuff
 });
+```
