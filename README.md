@@ -1,5 +1,8 @@
 MIT Licensed.
 
+### What is express-jsonq?
+
+express-jsonq is a light-weight Expressjs Middleware plugin that parses the query string as JSON and exposes it to your router.
 
 ### Installation
 

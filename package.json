@@ -1,6 +1,6 @@
 {
   "name": "express-jsonq",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Express Middleware that parses the query string as JSON and exposes it to your router",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,14 @@
     "param",
     "middleware"
   ],
-  "author": "Matt McFarland",
-  "license": "MIT"
+  "author": {
+    "name": "Matt McFarland",
+    "email": "contact@mattmcfarland.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MattMcFarland/express-jsonq"
+  },
+  "homepage": "https://github.com/MattMcFarland/express-jsonq"
 }
