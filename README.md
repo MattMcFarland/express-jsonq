@@ -50,6 +50,8 @@ npm install express-jsonq
 
 ### Basic Usage
 
+If you wanted to setup an express server and ALL routes to check for the request query string to be json:
+
 ```javascript
 var express = require('express'),
     jsonq  = require('jsonq'), 
@@ -66,6 +68,8 @@ app.listen(3000);
 ```
 
 ### Explicit Usage
+
+If you wanted to use an express server and check for the request query string to be json on specific routes:
 
 ```javascript
 
