@@ -1,6 +1,6 @@
 {
   "name": "express-jsonq",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Express Middleware that parses the query string as JSON and exposes it to your router",
   "main": "index.js",
   "scripts": {
