@@ -22,7 +22,6 @@ exports = module.exports = function (){
             query = url.parse(req.url).query;
 
             if (query) {
-                console.log(query);
                 req.jsonq = JSON.parse(decodeURIComponent(query));
             }
         } catch (e) {
